@@ -1,0 +1,229 @@
+*{
+    font-family: "Rubik", serif;
+    font-family: "Raleway", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.16%;}
+.col-3{width: 25%;}
+.col-4{width: 33.32%;}
+.col-5{width: 41.65%;}
+.col-6{width: 50%;}
+.col-7{width: 58.31%;}
+.col-8{width: 66.64%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.63%;}
+.col-12{width: 100%;}
+
+
+h1{
+    font-family: "Rubik", serif;
+}
+p{
+    font-family: "Raleway", serif;
+}
+body{
+    width: 1200px;
+    height: 800px;
+    background-color: #154734;
+
+}
+
+.signIn-heru{
+    display: flex;
+    margin: 200px;
+    border: 3px solid;
+    padding: 10px;
+    gap: 20px;
+    width: 80%;
+    height: 700px;
+    background-color:  white;
+
+}
+.text-sec{
+    position: relative;
+    margin-bottom: 20px;
+    margin: 90px;
+
+}
+.text-sec h1{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.text-sec h1 i{
+    font-size: 22px;
+    transform: rotate(-20deg) scaleX(-1);
+    padding-right: 10px;
+    color: orange;
+   
+}
+.text-sec p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+label{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+.text-sec .email{
+    width: 100%;
+    height: 35px;
+    outline: none;
+    padding: 5px;
+    padding-left: 15px;
+    border: 2px #154734 solid;
+    border-radius: 5px;
+    background-color: hsl(157, 54%, 18%,.1);
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.text-sec .password{
+    width: 100%;
+    height: 35px;
+    outline: none;
+    padding: 5px;
+    padding-left: 15px;
+    border: 2px #154734 solid;
+    border-radius: 5px;
+    background-color: hsl(157, 54%, 18%,.1);
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.F-pass{
+    text-underline-offset: 4px;
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    padding-right: 0;
+}
+
+.sign-in-btn{
+    width: 100%;
+    height: 33px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    outline: none;
+    background-color: #154734;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.sign-in-btn a{
+    color: white;
+    text-decoration: none;
+}
+.sign-in-btn:hover{
+    background-color: #8490ff;
+    color: #8000ff;
+
+}
+.title{
+    position: relative;
+    text-align: center;
+
+}
+
+.title::after{
+    content: '';
+    width: 43%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 14px;
+    right: 0px;
+    opacity: 0.2;
+    
+}
+.title::before{
+    content: '';
+    width: 43%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 14px;
+    left: 2px;
+    opacity: 0.2;
+    
+}
+.title span{
+    opacity: 0.5;
+}
+
+.btn-sign{
+    width: 100%;
+    height: 30px;
+   margin-top: 15px;
+   border: none;
+   border-radius: 5px;
+   position: relative;
+   font-size: 10px;
+   font-weight: 600;
+}
+.btn-sign a{
+    text-decoration: none;
+    color: black;
+}
+.btn-sign img{
+    width: 30px;
+    height: auto;
+    position: absolute;
+    left: 70px;
+    top: 0px;
+}
+.btn-sign i{
+ padding-right: 8px;
+ font-size: 17px;
+ color: #0896de;
+}
+.btn-sign:hover{
+    background-color: hsl(0, 0%, 50%,0.3);
+}
+.others-sec{
+    margin-top: 5px;
+}
+.others-sec a{
+    text-underline-offset: 3px;
+}
+
+.footer-sec h1{
+    font-size: 10px;
+    margin-top: 60px;
+    font-weight: 400;
+    text-align: center;
+    color: tomato;
+    padding-bottom: 20px;
+
+}
+.footer-sec span{
+    color: gray;
+}
+
+.img-sec{
+    width: 100%;
+    height: 100%;
+    margin-right: -110px;
+}
+
+
+.img-sec img{
+    width: 80%;
+    height: 660px;
+    border-radius: 10px;
+    margin-right: 50px;
+    
+
+}
